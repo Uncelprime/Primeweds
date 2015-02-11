@@ -20,7 +20,7 @@ public class ItemCustomArmor extends Item
   public void registerIcons(IconRegister par1IconRegister)
   {
     String getnameicon = getUnlocalizedName().substring(getUnlocalizedName().lastIndexOf(".") + 1);
-    this.itemIcon = par1IconRegister.registerIcon("WaterWorld:" + getnameicon);
+    this.itemIcon = par1IconRegister.registerIcon("fizzclubslot:" + getnameicon);
   }
 
   public ItemCustomArmor(int par1, int par2, int par3, String par4) {

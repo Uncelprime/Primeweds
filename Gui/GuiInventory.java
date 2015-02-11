@@ -32,7 +32,7 @@ public class GuiInventory extends GuiContainer
 
   protected void drawGuiContainerBackgroundLayer(float var1, int var2, int var3) {
     GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-    this.mc.renderEngine.bindTexture(new ResourceLocation("minelife:textures/gui/cosplayinv.png"));
+    this.mc.renderEngine.bindTexture(new ResourceLocation("fizzyclubslot:textures/gui/cosplayinv.png"));
     int var4 = this.height;
     int var5 = this.width;
     int var6 = (this.width - this.xSize) / 2;
